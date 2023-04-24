@@ -1,2 +1,2 @@
 # Learning Java POO
- Apendendo POO em java
+ Aprendendo POO em java.
