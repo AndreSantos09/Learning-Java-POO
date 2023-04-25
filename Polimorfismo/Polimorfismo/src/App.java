@@ -5,30 +5,23 @@ public class App {
         Peixe p = new Peixe();
         Ave a = new Ave();
 
-        m.setPeso(22.5);
-        m.setCorPelo("marrom");
+        Canguru c = new Canguru();
+        Cachorro ca = new Cachorro();
+        Cobra co = new Cobra();
+        Tartaruga t = new Tartaruga();
+        PeixeDourado pd = new PeixeDourado();
+        Arara ar = new Arara();
+
         m.alimentar();
-        m.locomover();
-        m.emitirSom();
-
-        r.setPeso(30);
-        r.setCorEscama("vermelho");
-        r.alimentar();
-        r.locomover();
         r.emitirSom();
-
-        p.setPeso(20);
-        p.setCorEscama("preto");
-        p.alimentar();
         p.locomover();
-        p.emitirSom();
-
-        a.setPeso(15);
-        a.setCorPena("branco");
-        a.alimentar();
-        a.locomover();
         a.emitirSom();
 
-
+        c.locomover();
+        ca.emitirSom();
+        co.emitirSom();
+        t.locomover();
+        pd.emitirSom();
+        ar.emitirSom();
     }
 }
