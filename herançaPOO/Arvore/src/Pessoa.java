@@ -1,25 +1,24 @@
 public abstract class Pessoa {
     private String nome;
     private int idade;
-    private String sexo;    
+    private String sexo;
 
-    public void fazerNiver(){
-        this.setIdade(this.getIdade()+1);
+    public void fazerNiver() {
+        this.setIdade(this.getIdade() + 1);
     }
 
     public String getNome() {
         return this.nome;
     }
-    
+
     @Override
     public String toString() {
         return "{" +
-            " nome='" + getNome() + "'" +
-            ", idade='" + getIdade() + "'" +
-            ", sexo='" + getSexo() + "'" +
-            "}";
+                " nome='" + getNome() + "'" +
+                ", idade='" + getIdade() + "'" +
+                ", sexo='" + getSexo() + "'" +
+                "}";
     }
-    
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -40,6 +39,5 @@ public abstract class Pessoa {
     public void setSexo(String sexo) {
         this.sexo = sexo;
     }
-
 
 }

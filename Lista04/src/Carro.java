@@ -3,34 +3,34 @@ public class Carro {
     private String modelo;
     private int ano;
     private String cor;
-// constructor
+    // constructor
 
     public Carro(String marca, String modelo, int ano, String cor) {
-    this.setAno(ano);
-    this.setMarca(marca); 
-    this.setModelo(modelo);
-    this.setCor(cor);
-    } 
+        this.setAno(ano);
+        this.setMarca(marca);
+        this.setModelo(modelo);
+        this.setCor(cor);
+    }
+
     public Carro(String marca, String modelo) {
-    this.setAno(0);
-    this.setMarca(marca); 
-    this.setModelo(modelo);
-    this.setCor("Preto");
-    } 
-    
-//methods
+        this.setAno(0);
+        this.setMarca(marca);
+        this.setModelo(modelo);
+        this.setCor("Preto");
+    }
 
-public void exibirCarro(){
-    System.out.println("================================================");
-    System.out.println("Marca: " + this.getMarca());
-    System.out.println("Modelo: " + this.getModelo());
-    System.out.println("Ano: " + this.getAno());
-    System.out.println("Cor: " + this.getCor());
-    System.out.println("================================================"); 
-}
+    // methods
 
+    public void exibirCarro() {
+        System.out.println("================================================");
+        System.out.println("Marca: " + this.getMarca());
+        System.out.println("Modelo: " + this.getModelo());
+        System.out.println("Ano: " + this.getAno());
+        System.out.println("Cor: " + this.getCor());
+        System.out.println("================================================");
+    }
 
-// getter and setter    
+    // getter and setter
     public String getMarca() {
         return this.marca;
     }

@@ -29,9 +29,9 @@ public class Relogio {
         System.out.print(this.getHora());
         System.out.print(":");
         System.out.print(this.getMinuto());
-        System.out.print(":");   
+        System.out.print(":");
         System.out.print(this.getSegundo());
-        System.out.println("]");    
+        System.out.println("]");
     }
 
     // getter and setter
