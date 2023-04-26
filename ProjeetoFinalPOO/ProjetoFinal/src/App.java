@@ -9,10 +9,13 @@ public class App {
         a[0] = new Aluno("João", 20,"M","senha123");
         a[1] = new Aluno("Maria", 25,"F","senha123567");
 
+        Vizualizacao vis = new Vizualizacao(a[0],v[0]);
+
         System.out.println(v[0].toString());
         System.out.println(v[1].toString());
 
         System.out.println(a[0].toString());
         System.out.println(a[1].toString());
+        System.out.println(vis.toString());
     }
 }

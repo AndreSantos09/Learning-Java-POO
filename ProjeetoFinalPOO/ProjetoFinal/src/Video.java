@@ -17,7 +17,7 @@ public class Video implements AcoesVideo{
 
     @Override
     public void like() {
-        this.setCurtidas(this.getCurtidas() + 1); 
+        this.setCurtidas(this.getCurtidas()+1);
     }
 
     @Override

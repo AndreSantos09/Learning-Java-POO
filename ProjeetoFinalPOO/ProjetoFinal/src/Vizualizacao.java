@@ -8,6 +8,8 @@ public class Vizualizacao {
     public Vizualizacao(Aluno espectador, Video filme) {
         this.setEspectador(espectador);
         this.setFilme(filme);
+        this.espectador.setTotAssistindo(this.espectador.getTotAssistindo()+1);
+        this.filme.setViews(this.filme.getViews()+1);
     }
 
 
@@ -26,6 +28,14 @@ public class Vizualizacao {
     }
 
 
+
+    @Override
+    public String toString() {
+        return "{" +
+            " espectador='" + getEspectador() + "'" +
+            ", filme='" + getFilme() + "'" +
+            "}";
+    }
    
 
 }
