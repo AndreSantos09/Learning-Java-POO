@@ -6,7 +6,4 @@ public class Cachorro extends Lobo{
     public void emitirSom() {
         System.out.println("au au au au au");
     }
-
-
-
 }
