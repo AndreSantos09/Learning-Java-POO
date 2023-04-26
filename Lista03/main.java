@@ -1,6 +1,6 @@
 package Lista03;
 public class main {
-    public static void main(String[] args) throws Exception {
+    public static void main (String[] args) throws Exception {
 
     Agenda p1 = new Agenda(10);
 
