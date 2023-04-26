@@ -27,6 +27,9 @@ public class Reptil extends Animal {
 
     @Override
     public String toString() {
+
         return "Reptil{" + "corEscama=" + corEscama + '}';
     }
 }
+
+
