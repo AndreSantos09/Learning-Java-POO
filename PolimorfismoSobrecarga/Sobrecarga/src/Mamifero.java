@@ -6,8 +6,9 @@ public class Mamifero extends Animal {
         System.out.println("som de mamifero");
     }
 
+
     public String getCorPelo() {
-        return corPelo;
+        return this.corPelo;
     }
 
     public void setCorPelo(String corPelo) {
