@@ -8,5 +8,20 @@ public class App {
         
         Mago m1 = new Mago("klaus");
         System.out.println(m1.toString());
+
+        Mago m2 = new Mago("klaus");
+        System.out.println(m2.toString());
+
+        Mago m3 = new Mago("klaus");
+        System.out.println(m3.toString());
+
+        Mago m4 = new Mago("klaus");
+        System.out.println(m4.toString());
+
+        Mago m5 = new Mago("klaus");
+        System.out.println(m5.toString());
+        
+
+
     }
 }
