@@ -20,8 +20,5 @@ public class App {
 
         Mago m5 = new Mago("klaus");
         System.out.println(m5.toString());
-        
-
-
     }
 }
