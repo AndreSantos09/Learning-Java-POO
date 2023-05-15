@@ -32,10 +32,7 @@ public class Livro {
         System.out.println("Seu livro foi removido do sitema!");
     }
 
-    
-    
-
-    public  void pesquisarLivros(String titulo, String autor, String genero) {
+    public void pesquisarLivros(String titulo, String autor, String genero) {
         
         for (int i = 0; i <getQuantidade();i++) {
             if ((titulo == null || this.getTitulo().equalsIgnoreCase(titulo)) && (autor == null || this.getAutor().equalsIgnoreCase(autor)) && (genero == null || this.getGenero().equalsIgnoreCase(genero))) {
@@ -43,6 +40,7 @@ public class Livro {
             }
         }
     }
+
     // getter/setter
     public String getAutor() {
         return autor;
@@ -89,7 +87,6 @@ public class Livro {
     public boolean getDisponivel() {
         return this.disponivel;
     }
-
 
 
 
