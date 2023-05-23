@@ -9,9 +9,9 @@ public abstract class Elevador {
 
 
     public Elevador(int andarAtual, int totalAndares, int capacidadeElevador) {
-        this.andarAtual = andarAtual;
-        this.totalAndares = totalAndares;
-        this.capacidadeElevador = capacidadeElevador;
+        this.setAndarAtual(andarAtual);
+        this.setTotalAndares(totalAndares);
+        this.setCapacidadeElevador(capacidadeElevador);
     }
     public int getAndarAtual() {
         return andarAtual;
@@ -33,32 +33,21 @@ public abstract class Elevador {
     }
 
 
-    public void inicializa() {
-
-        
-        
-    }
-    public void entra() {
-
-     
-        
+    public void inicializa() {  
     }
 
-    public void sai() {
-     
-        
+    public void entra() {     
+    }
+
+    public void sai() {          
     }
 
     public void sobe() {
-
-        
-    }
-    public void desce() {
-
-    
-        
     }
 
-    
-    
+    public void desce() { 
+
+    }
+
+
 }

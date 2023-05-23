@@ -25,16 +25,12 @@ public class App {
                 System.out.println("Digite para qual andar deseja subir : ");
                 int sobe = scan.nextInt();
                 elevaComercial.sobe(sobe, elevaComercial.getAndarAtual());
-                
             }
             else if (escolha == 5) {
                 System.out.println("Digite o andar que deseja subir");
                 int desce = scan.nextInt();
                 elevaComercial.desce(desce);
-                
             }
         }
-
-        
     }
 }
