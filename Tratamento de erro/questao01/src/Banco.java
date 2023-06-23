@@ -11,7 +11,7 @@ public void sacar(double valor) throws SaldoInsuficienteException, TransacaoExce
     if (valor > this.getSaldo()){
         throw new SaldoInsuficienteException("Saldo insuficiente para realizar o saque!");
     }
-    else if(valor < 0){
+    else if(Math.random() < 0.5){
         throw new TransacaoException("Erro durante a transação. Por favor, tente novamente.");
     }
     else{

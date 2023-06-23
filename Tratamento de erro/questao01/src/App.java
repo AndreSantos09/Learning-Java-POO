@@ -7,6 +7,7 @@ public class App {
             conta.sacar(500); // Tentativa de saque bem-sucedida
             conta.sacar(700); // Tentativa de saque com saldo insuficiente
             conta.sacar(200); // Tentativa de saque com erro na transação
+            
         }
         catch(SaldoInsuficienteException exception){
             System.out.println("Erro: " + exception.getMessage());
