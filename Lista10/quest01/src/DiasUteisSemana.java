@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DiasUteisSemana {
     enum DiasSemana {
-        DOMINGO, SEGUNDA, TERCA, QUARTA, QUINTA, SEXTA, SABADO
+        DOMINGO,  SEGUNDA,TERCA, QUARTA, QUINTA, SEXTA, SABADO
     }
 
 public static void main(String[] args) {
