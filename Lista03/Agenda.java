@@ -2,13 +2,13 @@ package Lista03;
 
 public class Agenda {
     private Contato[] contatos;
-    private int tamanho=0;
-    
+    private int tamanho = 0;
+
     public Agenda(int capacidade) {
         this.contatos = new Contato[capacidade];
         this.setTamanho(0);
     }
-    
+
     public void adicionarContato(Contato contato) {
         if (this.tamanho < this.contatos.length) {
             this.contatos[this.tamanho] = contato;
@@ -17,19 +17,19 @@ public class Agenda {
             System.out.println("Agenda cheia!");
         }
     }
-    
+
     public Contato buscarContato(String nome) {
         for (int i = 0; i < this.tamanho; i++) {
             if (this.contatos[i].getNome().equals(nome)) {
-                System.out.println("achei o contato :"+this.contatos);
+                System.out.println("achei o contato :" + this.contatos);
                 return this.contatos[i];
             }
             System.out.println("Contato não encontrado!");
         }
-        
+
         return null;
     }
-    
+
     public void excluirContato(String nome) {
         for (int i = 0; i < this.tamanho; i++) {
             if (this.contatos[i].getNome().equals(nome)) {
